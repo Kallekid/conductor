@@ -160,7 +160,7 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
 5.  **User Confirmation Loop:**
     -   **Ask for Approval:** Use the `ask_user` tool to request confirmation. You MUST embed the drafted content directly into the `question` field so the user can review it in context.
         - **questions:**
-            - **header:** "Review"
+            - **header:** "Review Draft"
             - **question:**
                 Please review the drafted Product Guide below. What would you like to do next?
 
@@ -207,7 +207,7 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
 5.  **User Confirmation Loop:**
     -   **Ask for Approval:** Use the `ask_user` tool to request confirmation. You MUST embed the drafted content directly into the `question` field so the user can review it in context.
         - **questions:**
-            - **header:** "Review"
+            - **header:** "Review Draft"
             - **question:**
                 Please review the drafted Product Guidelines below. What would you like to do next?
 
@@ -262,7 +262,7 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
 5.  **User Confirmation Loop:**
     -   **Ask for Approval:** Use the `ask_user` tool to request confirmation. You MUST embed the drafted content directly into the `question` field so the user can review it in context.
         - **questions:**
-            - **header:** "Review"
+            - **header:** "Review Draft"
             - **question:**
                 Please review the drafted Tech Stack below. What would you like to do next?
 
