@@ -4,12 +4,29 @@
 
 1. **The Plan is the Source of Truth:** All work must be tracked in `plan.md`
 2. **The Tech Stack is Deliberate:** Changes to the tech stack must be documented in `tech-stack.md` *before* implementation
-3. **Test-Driven Development:** Write unit tests before implementing functionality
-4. **High Code Coverage:** Aim for >80% code coverage for all modules
-5. **User Experience First:** Every decision should prioritize user experience
-6. **Non-Interactive & CI-Aware:** Prefer non-interactive commands. Use `CI=true` for watch-mode tools (tests, linters) to ensure single execution.
+3. **Test-Driven Development (TDD):** Write unit and integration tests *before* implementing functionality.
+4. **Anti-Mocking Philosophy:** Prefer real data and real environments (e.g., Testcontainers, local DBs) over heavy mocking. Mocks are for external APIs only.
+5. **High Code Coverage & Strictness:** Aim for >80% coverage and zero linting/typing errors.
+6. **Task Execution Philosophy:** 
+   - **One Agent, One Task, One Prompt**: Each task is a self-contained operation.
+   - **No Ambiguity**: Specifications must include line numbers, code snippets, and explicit instructions.
+7. **Non-Interactive & CI-Aware:** Prefer non-interactive commands. Use `CI=true` for watch-mode tools.
 
-## Task Workflow
+## Track Lifecycle: PR & Dev Branches
+
+1. **Initialize Track Branch:**
+   - Before starting a track, create a dedicated dev branch: `git checkout -b dev/<track-id>`.
+2. **Development**: Follow the standard task workflow below on the track branch.
+3. **Quality Gates**:
+   - Run `pnpm audit` for dependency security.
+   - Run `pnpm test` (Anti-Mocking approach).
+   - Perform "Strictness Audit" (Type checks & Linting).
+4. **Pull Request (PR)**:
+   - Once all tasks in `plan.md` are complete, create a PR to `main`.
+   - AI Agent must verify the PR against the **Repository Pattern** and **Redundancy** check.
+5. **Merge & Cleanup**: Merge to `main` and delete the dev branch.
+
+## Standard Task Workflow
 
 All tasks follow a strict lifecycle:
 

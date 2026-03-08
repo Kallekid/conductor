@@ -1,33 +1,25 @@
-# How to contribute
+# Contributing to Conductor SDLC
 
-We'd love to accept your patches and contributions to this project.
+Thank you for your interest in contributing to **Conductor SDLC**! As a fork focused on professional SDLC orchestration, we maintain high standards for code quality and architectural integrity.
 
-## Before you begin
+## Our Philosophy
 
-### Sign our Contributor License Agreement
+1. **Repository Pattern**: All data access must be abstracted.
+2. **Anti-Mocking**: Tests should use real data/environments whenever possible.
+3. **Strictness**: No implicit `any`, strict null checks, and comprehensive linting are mandatory.
+4. **Scouting**: Always check for existing infrastructure before adding new logic.
 
-Contributions to this project must be accompanied by a
-[Contributor License Agreement](https://cla.developers.google.com/about) (CLA).
-You (or your employer) retain the copyright to your contribution; this simply
-gives us permission to use and redistribute your contributions as part of the
-project.
+## How to Contribute
 
-If you or your current employer have already signed the Google CLA (even if it
-was for a different project), you probably don't need to do it again.
+1. **Fork the Repository**: Create your own fork of `conductor-sdlc`.
+2. **Create a Track**: Use `/conductor:newTrack` to define your feature or fix.
+3. **Follow the Workflow**: Adhere to the TDD and PR process defined in `conductor/workflow.md`.
+4. **Submit a PR**: Ensure all quality gates (tests, linting, `pnpm audit`) pass before submitting.
 
-Visit <https://cla.developers.google.com/> to see your current agreements or to
-sign a new one.
+## Code of Conduct
 
-### Review our community guidelines
+Please be respectful and professional in all interactions.
 
-This project follows
-[Google's Open Source Community Guidelines](https://opensource.google/conduct/).
+## Credits
 
-## Contribution process
-
-### Code reviews
-
-All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-[GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
-information on using pull requests.
+This project is built upon the foundation of the original [Conductor](https://github.com/gemini-cli-extensions/conductor) project. We thank the original authors for their work.
