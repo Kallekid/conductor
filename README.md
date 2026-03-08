@@ -13,7 +13,7 @@
 ## Installation
 
 ```bash
-gemini extensions install github.com/Kallekid/conductor-sdlc
+gemini extensions install https://github.com/Kallekid/conductor-sdlc
 ```
 
 ## Quick Start
