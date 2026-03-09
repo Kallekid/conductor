@@ -20,7 +20,7 @@
     - [x] Add a note to the "Knowledge Synthesis" section in the Phase Completion Protocol about skill evolution checks.
 - [x] Task: Conductor - User Manual Verification 'Skill Evolution' (Protocol in workflow.md)
 
-## Phase 3: Final Meta-Verification
+## Phase 3: Final Meta-Verification [checkpoint: 0a1d992]
 - [x] Task: End-to-End Simulation of Active Memory and Skill Audit. [Skills: Strict-Type-Auditor] [MCP: Shell]
     - [x] Verify that `newTrack` and `implement` correctly grep the memory file.
     - [x] Verify that `createSkill` correctly identifies "repeated" patterns.
