@@ -29,8 +29,8 @@
     - [x] Update `conductor/index.md` to include a link to the new `conductor/memory.md` file.
 - [x] Task: Conductor - User Manual Verification 'Workflow Integration' (Protocol in workflow.md)
 
-## Phase 4: Final Verification
+## Phase 4: Final Verification [checkpoint: 1839019]
 - [x] Task: End-to-End Simulation
     - [x] Simulate a complete task execution (e.g., creating a small dummy file) and verify that the memory entry is correctly recorded.
     - [x] Verify that the phase completion protocol correctly triggers the brain update.
-- [ ] Task: Conductor - User Manual Verification 'Final Verification' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Final Verification' (Protocol in workflow.md)
