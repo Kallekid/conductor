@@ -1,13 +1,13 @@
 # Implementation Plan: Implement Project-Specific Memory & Knowledge Base System
 
-## Phase 1: Research & Definition
+## Phase 1: Research & Definition [checkpoint: d2f652c]
 - [x] Task: [Scout] Existing workflow and directory structure
     - [x] Analyze `conductor/workflow.md` to identify insertion points for Knowledge Capture steps.
     - [x] Review `conductor/index.md` to ensure correct linking of the new memory file.
 - [x] Task: Define Memory Schema and Structure
     - [x] Create a template for `conductor/memory.md` with sections for Patterns, Lessons, and Logs.
     - [x] Document the expected format for "Knowledge Snippets."
-- [ ] Task: Conductor - User Manual Verification 'Research & Definition' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Research & Definition' (Protocol in workflow.md)
 
 ## Phase 2: Core Memory Infrastructure
 - [ ] Task: Write Tests for Memory System
