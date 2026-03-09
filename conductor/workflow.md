@@ -80,6 +80,7 @@ All tasks follow a strict lifecycle:
     -   **Action:** Review all task-level entries in the memory log for this phase.
     -   **Strategic Synthesis:** Identify insights that represent fundamental shifts in project understanding (e.g., "The repository is actually the tool source, not a target app").
     -   **Consolidate:** Promote the most significant insights to the **Pattern Library** or **Lessons Learned** sections of `conductor/memory.md`.
+    -   **Skill Evolution Check:** Check if any pattern has been reused 3+ times. If so, recommend creating a permanent AI skill via `/conductor:createSkill`.
     -   **Documentation Update:** If the synthesis reveals a gap in the `Product Definition` or `Guidelines`, propose an update immediately.
 
 3.  **Ensure Test Coverage for Phase Changes:**
