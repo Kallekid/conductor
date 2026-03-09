@@ -20,7 +20,7 @@
     - [x] Ensure the "Brain" update in the workflow captures why certain project-level contexts are important.
 - [x] Task: Conductor - User Manual Verification 'Knowledge Base & Memory Refinement' (Protocol in workflow.md)
 
-## Phase 3: Documentation & Architectural Clarity [checkpoint: 1839019]
+## Phase 3: Documentation & Architectural Clarity [checkpoint: 22951ee]
 - [x] Task: Create Architectural Map in `product.md` [Skills: Strict-Type-Auditor] [MCP: FileSystem]
     - [x] Explain the roles of `commands/`, `templates/`, and `conductor/`.
     - [x] Detail how prompt logic drives the SDLC phases.
